@@ -14,7 +14,32 @@ they pass.
 
 ## Functionality & MVP
 
-In Xonix Players will be able to:
+In Xonix...
 
-* Enter their name prior to starting play.
-* Move around the screen vertically and horizontally in order to claim space on the screen. 
+- [ ] Players enter a username of their choice prior to starting play
+that will be used for the Score board.
+- [ ] Players will navigate the screen vertically and horizontally using
+arrow keys in order to claim space on the screen.
+- [ ] Players when they claim 60% of the screen.
+- [ ] Stat will be displayed on screen:
+  - [ ] Score
+  - [ ] Percentage of Screen Claimed
+  - [ ] Current Level
+  - [ ] Players Name
+  - [ ] Available Lives
+
+## Wireframes
+
+Xonix will be a single page app, consisting of a welcome modal, the play
+screen canvas, and nav links to the GitHub and my LinkedIn page.
+
+# Welcome Modal
+The welcome modal with have an input field where the player can enter a
+username of their choice, which will be displayed on the score board if
+they make it. The scoreboard itself will also be displayed on the welcome
+modal
+
+# Play Screen Canvas
+The play screen canvas will include the game field and a stats bar below.
+The percentage of screen claimed will be displayed as a percentage of a
+bar.
