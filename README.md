@@ -20,7 +20,7 @@ In Xonix...
 that will be used for the Score board.
 - [ ] Players will navigate the screen vertically and horizontally using
 arrow keys in order to claim space on the screen.
-- [ ] Players when they claim 60% of the screen.
+- [ ] Players win when they claim 60% of the screen.
 - [ ] Stat will be displayed on screen:
   - [ ] Score
   - [ ] Percentage of Screen Claimed
@@ -54,6 +54,7 @@ This project will be implemented with the following technologies:
 * Vanilla JavaScript for overall structure and game logic,
 * HTML5 Canvas for DOM manipulation and rendering,
 * keymaster.js for defining and dispatching keyboard shortcuts,
+* physicsJS to model the behavior of the balls upon impact with the perimeter of the play screen,
 * and Webpack to bundle and serve up the various scripts.
 
 
@@ -70,10 +71,11 @@ through these objects and calling their corresponding move methods.
 
 - [ ] Get webpack serving files and frame out index.html.
 - [ ] Review Astroid game to familiarize myself with canvas.
-- [ ] Render the canvas play screen.
+- [ ] Review the documentation for PhysicsJS.
 
 **Day 2**: Build out ball and player models and render them on canvas screen. Goals for the day:
 
+- [ ] Render the canvas play screen.
 - [ ] Build fully functioning ball and player models.
 - [ ] Render ball and player on the canvas frontend.
 
@@ -81,7 +83,7 @@ through these objects and calling their corresponding move methods.
 
 - [ ] Have a bare-bones no-frills functioning game.
 - [ ] Add frontend display for stats bar.
-- [ ] Begin styling - explore where I want to go with it (retro vs. minimalistic)
+- [ ] Begin styling - explore where I want to go with it (retro vs. minimalistic).
 
 **Day 4**: Finish remaining tasks. Goals for the day:
 
