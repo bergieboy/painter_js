@@ -1,0 +1,29 @@
+{
+  "name": "aA-js-project",
+  "version": "1.0.0",
+  "description": "## Background and Overview",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "requirejs": "^2.3.5",
+    "webpack": "^3.4.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "build": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bergieboy/xonix_js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bergieboy/xonix_js/issues"
+  },
+  "homepage": "https://github.com/bergieboy/xonix_js#readme"
+}
