@@ -1,0 +1,44 @@
+.main-content {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+aside {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  font-size: 70px;
+  font-family: 'Bungee Shade', cursive;
+  text-align: center;
+  margin: 15px;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 15px;
+  font-family: 'BioRhyme', serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 18px;
+  margin: 15px;
+  font-family: 'BioRhyme', serif;
+}
+img {
+  margin-right: 15px;
+  margin-left: 15px
+}
+
+canvas {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  font-family: 'Bungee Shade', cursive;
+  text-align: center;
+  color: black;
+}
