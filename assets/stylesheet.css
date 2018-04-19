@@ -9,6 +9,8 @@ aside {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 h1 {
   font-size: 70px;
@@ -29,6 +31,7 @@ p {
   font-size: 18px;
   margin: 15px;
   font-family: 'BioRhyme', serif;
+  text-align: justify;
 }
 img {
   margin-right: 15px;
