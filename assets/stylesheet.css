@@ -1,5 +1,5 @@
 .main-content {
-  margin-top: 60px;
+  margin-top: 30px;
   display: flex;
   justify-content: space-around;
 }
@@ -12,11 +12,16 @@ aside {
   padding-left: 30px;
   padding-right: 30px;
 }
+
+.row {
+  width: 400px;
+  height: auto;
+}
 h1 {
   font-size: 70px;
   font-family: 'Bungee Shade', cursive;
   text-align: center;
-  margin: 15px;
+  margin: 10px 15px 15px 15px;
 }
 
 h2 {
@@ -38,15 +43,15 @@ img {
 }
 
 canvas {
-  margin-right: 15px;
+  margin-right: 45px;
   margin-bottom: 15px;
   font-family: 'Bungee Shade', cursive;
   text-align: center;
 }
 
 .links {
-  margin-top: 30px;
-  margin-bottom: 40px;
+  margin-top: 15px;
+  margin-bottom: 30px;
   display: flex;
   justify-content: space-around;
 }
