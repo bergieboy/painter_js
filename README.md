@@ -2,7 +2,7 @@
 
 ## Background and Overview
 
-Paper is a video game that is lightly based on Xonix, a classic video
+Painter is a video game that is lightly based on Xonix, a classic video
 game that was developed in 1984. The game starts with the player at the
 center and enemies randomly placed throughout the screen. The objective
 of the game is for the player to paint as much of the screen as possible.
@@ -12,21 +12,21 @@ behind them until they return to their safe zone. The space encapsulated
 in the players trail will become 'painted' and will extend their safe
 space. If a enemy runs into their trail while painting a new portion,
 they game ends, and the players score is quantified as the percentage of
-the screen that hey covered.
+the screen that they covered.
 
 ## Functionality & MVP
 
 In Painter...
 
-- [ ] Players will navigate the screen vertically and horizontally using
+* Players will navigate the screen vertically and horizontally using
 arrow keys in order to claim space on the screen.
-- [ ] Players win when they capture 100% of the screen.
-- [ ] Players lose when an enemy collides with their tail.
-- [ ] Stat will be displayed on screen:
-  - [ ] Percentage of Screen Claimed
-  - [ ] Current Level
+* Players win when they capture 100% of the screen.
+* Players lose when an enemy collides with their tail.
+* Stat will be displayed on screen:
+  * Percentage of Screen Claimed
+  * Current Level
 
-## Wireframes
+## Painter
 
 Painter will be a single page app, with the play screen canvas, and nav
 links to the GitHub and my LinkedIn page.
@@ -46,10 +46,10 @@ This project will be implemented with the following technologies:
 
 
 This project will consist of the following files:
-* `ball.js`
-* `painter.js`
-* `enemies.js`
-* `paper.js` where the content is rendered
+* `painter.js` Player Logic
+* `enemies.js` Enemy Logic
+* `grid.js` Grid Outline
+* `paper.js` Entry File
 * `game.js` holds all of the moving objects and the logic for iterating
 through these objects and calling their corresponding move methods.
 
