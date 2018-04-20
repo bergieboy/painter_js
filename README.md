@@ -1,4 +1,4 @@
-### Painter
+![Game Logo](https://github.com/bergieboy/xonix_js/blob/master/assets/logo.png)
 
 ## Background and Overview
 
@@ -18,31 +18,24 @@ the screen that hey covered.
 
 In Painter...
 
-- [ ] Players enter a username of their choice prior to starting.
 - [ ] Players will navigate the screen vertically and horizontally using
 arrow keys in order to claim space on the screen.
 - [ ] Players win when they capture 100% of the screen.
 - [ ] Players lose when an enemy collides with their tail.
 - [ ] Stat will be displayed on screen:
   - [ ] Percentage of Screen Claimed
-  - [ ] Players Name
+  - [ ] Current Level
 
 ## Wireframes
 
-Painter will be a single page app, consisting of a welcome modal, the play
-screen canvas, and nav links to the GitHub and my LinkedIn page.
-
-### Welcome Modal
-The welcome modal with have an input field where the player can enter a
-username of their choice.
-
-![welcome modal](https://github.com/bergieboy/xonix_js/blob/master/assets/xonix_welcome.png)
+Painter will be a single page app, with the play screen canvas, and nav
+links to the GitHub and my LinkedIn page.
 
 ### Play Screen Canvas
-The play screen canvas will include the game field and the username and
+The play screen canvas will include the game field and the level and
 percentage of the screen painted.
 
-![play screen canvas](https://github.com/bergieboy/xonix_js/blob/master/assets/xonix_canvas.png)
+![play screen canvas](https://github.com/bergieboy/xonix_js/blob/master/assets/screen_shot.png)
 
 ## Architecture and Technologies
 
@@ -74,12 +67,11 @@ through these objects and calling their corresponding move methods.
 **Day 3**: Fine tune backend logic. Goals for the day:
 
 - [ ] Have a bare-bones no-frills functioning game.
-- [ ] Add frontend display for username and coverage percentage.
+- [ ] Add frontend display for Level and coverage percentage.
 - [ ] Begin styling - explore where I want to go with it (retro vs. minimalistic).
 
 **Day 4**: Finish remaining tasks. Goals for the day:
 
-- [ ] Implement modal welcome with username input.
 - [ ] Finish styling all components.
 
 Bonus Features:
