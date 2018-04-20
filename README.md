@@ -1,5 +1,7 @@
 ![Game Logo](https://github.com/bergieboy/xonix_js/blob/master/assets/logo.png)
 
+[Live Demo!](https://bergieboy.github.io/painter_js/)
+
 ## Background and Overview
 
 Painter is a video game that is lightly based on Xonix, a classic video
