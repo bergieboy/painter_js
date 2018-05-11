@@ -70,10 +70,13 @@ audio {
   transform: translateX(1140px) translateY(-25px);
   font-family: 'BioRhyme', serif;
   font-size: 18px;
+  width: 220px;
 
 }
 
 body {
     filter: invert(100%);
     background-color: black;
+
+    width: 100%;
 }
