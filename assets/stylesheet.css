@@ -1,3 +1,8 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .main-content {
   margin-top: 30px;
   display: flex;
@@ -21,7 +26,7 @@ h1 {
   font-size: 70px;
   font-family: 'Bungee Shade', cursive;
   text-align: center;
-  margin: 10px 15px 15px 15px;
+  margin: 40px 15px 15px 15px;
 }
 
 h2 {
