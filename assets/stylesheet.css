@@ -62,8 +62,18 @@ canvas {
 }
 
 audio {
+  display: none;
   margin: 0 auto;
 }
 
+.audio-controls {
+  transform: translateX(1140px) translateY(-25px);
+  font-family: 'BioRhyme', serif;
+  font-size: 18px;
 
+}
+
+body {
+    filter: invert(100%);
+    background-color: black;
 }

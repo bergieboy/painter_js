@@ -31,9 +31,14 @@
             <img src="assets/linkedin.png"/>
           </a>
         </div>
-        <audio controls>
-          <source src="assets/backtrack.mp3" type="audio/mpeg" autoplay="true">
+        <audio id='player' autoplay controls loop >
+          <source src="assets/backtrack.mp3" type="audio/mpeg">
         </audio>
+        <div class='audio-controls' >
+          Audio Controls:
+          <button onclick="document.getElementById('player').play()" class="fas fa-play"/>
+          <button onclick="document.getElementById('player').pause()" class="fas fa-pause"/>
+        </div>
       </aside>
       <canvas/>
     </div>
