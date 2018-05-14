@@ -80,8 +80,8 @@ audio {
 }
 
 body {
-    filter: invert(100%);
-    background-color: black;
+    /* filter: invert(100%);
+    background-color: black; */
 
     width: 100%;
 }
