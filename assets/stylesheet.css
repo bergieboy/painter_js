@@ -52,8 +52,9 @@ img {
 canvas {
   margin-right: 45px;
   margin-bottom: 15px;
+  height: 720px;
+  width: 900px;
   font-family: 'Bungee Shade', cursive;
-  text-align: center;
 }
 
 .links {
@@ -74,16 +75,33 @@ audio {
 }
 
 .audio-controls {
-  transform: translateX(1140px) translateY(-25px);
+  transform: translateX(1140px) translateY(-20px);
   font-family: 'BioRhyme', serif;
   font-size: 18px;
   width: 220px;
 
 }
 
-body {
-    /* filter: invert(100%);
-    background-color: black; */
 
-    width: 100%;
+
+
+/* body.dark-mode {
+  filter: invert(100%);
+  background-color: black;
 }
+
+body.dark-mode a {
+    color: black;
+
+}
+body.dark-mode button {
+    background-color: white;
+}
+
+body.light-mode a {
+  color: white;
+}
+
+body.light-mode button {
+  background-color: black;
+} */
