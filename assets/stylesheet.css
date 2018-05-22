@@ -1,8 +1,17 @@
 html, body {
-    max-width: 100%;
-    max-height: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
+  max-width: 1377px;
+  max-height: 765px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+html {
+  padding-top: calc((50% - 765px) / 2);
+  padding-left: calc((100% - 1377px) / 2);
+}
+
+body {
+  margin: 0 auto;
 }
 
 .main-content {
